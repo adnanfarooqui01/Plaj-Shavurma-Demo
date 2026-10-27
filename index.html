@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#073b50">
+    <meta name="description" content="Plaj Shavurma in Al Shati, Al Qatif. Authentic shawarma, meals, fries, and signature sauces. Order pickup now.">
+    <title>Plaj Shavurma | Real shawarma, made the Plaj way</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Plaj Shavurma - Home">
+        <img src="assets/Plaj Şavurma Kebab Logo.webp" alt="Plaj Shavurma logo" data-i18n-alt="brand.logoAlt">
+        <span data-i18n="brand">Plaj Shavurma<small lang="en">PLAJ SHAVURMA</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#home" data-i18n="nav.home">Home</a>
+        <a href="#menu" data-i18n="nav.menu">Menu</a>
+        <a href="#story" data-i18n="nav.story">Our Story</a>
+        <a href="#location" data-i18n="nav.location">Location</a>
+        <a class="nav-order" href="https://app.jaicome.sa/ar/b0a94465-83d1-4144-92b5-40679d8a953a" target="_blank" rel="noreferrer"><span data-i18n="nav.order">Order Now</span> <span>↗</span></a>
+      </nav>
+      <button class="language-toggle" id="language-toggle" type="button" aria-label="Switch to Arabic" lang="en">
+        <span id="language-name">English</span>
+        <svg class="language-globe" aria-hidden="true" viewBox="0 0 24 24">
+          <circle cx="12" cy="12" r="9"></circle>
+          <path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"></path>
+        </svg>
+      </button>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-content">
+          <div class="hero-mark"><img src="assets/Plaj Şavurma Kebab Logo.webp" alt=""></div>
+          <p class="eyebrow" data-i18n="hero.eyebrow">PLAJ SHAVURMA · AL QATIF</p>
+          <h1 data-i18n="hero.title">Real shawarma,<br><span>the Plaj way.</span></h1>
+          <p class="hero-english" lang="en" data-i18n="hero.subtitle">Shawarma with real flavor, made fresh.</p>
+          <p class="hero-description" data-i18n="hero.description">Toasted sandwiches, hearty meals, and our signature sauces.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="https://app.jaicome.sa/ar/b0a94465-83d1-4144-92b5-40679d8a953a" target="_blank" rel="noreferrer"><span data-i18n="hero.order">Order Pickup</span> <span>↗</span></a>
+            <a class="button button-light" href="#menu"><span data-i18n="hero.viewMenu">Explore the Menu</span> <span>↓</span></a>
+          </div>
+          <div class="hero-note"><span class="open-dot"></span> <span data-i18n="hero.location">Al Shati, Al Qatif</span> <span class="note-divider">·</span> <span data-i18n="hero.hours">Open until 11:59 PM</span></div>
+        </div>
+        <div class="hero-art"><img src="assets/Modern Plaj Şavurma Storefront.webp" alt=""></div>
+        <a class="hero-scroll" href="#menu" aria-label="Scroll to menu" data-i18n-aria="hero.scroll">↓</a>
+      </section>
+
+      <section class="order-options" aria-label="Order options" data-i18n-aria="orders.label">
+        <a class="order-option" href="https://app.jaicome.sa/ar/b0a94465-83d1-4144-92b5-40679d8a953a" target="_blank" rel="noreferrer">
+          <span class="order-icon">↗</span>
+          <span><strong data-i18n="orders.pickup">Order pickup now</strong><small lang="en" data-i18n="orders.pickupDetail">Order pickup on Jaicome</small></span>
+          <span class="order-arrow">←</span>
+        </a>
+        <a class="order-option" href="https://app.jaicome.sa/ar/b0a94465-83d1-4144-92b5-40679d8a953a?fulfillment=CURBSIDE" target="_blank" rel="noreferrer">
+          <span class="order-icon">⌖</span>
+          <span><strong data-i18n="orders.curbside">Order curbside pickup</strong><small lang="en" data-i18n="orders.curbsideDetail">Order curbside on Jaicome</small></span>
+          <span class="order-arrow">←</span>
+        </a>
+        <a class="order-option order-instagram" href="https://www.instagram.com/plajshawarma/" target="_blank" rel="noreferrer">
+          <span class="order-icon">◎</span>
+          <span><strong data-i18n="orders.instagram">Follow us on Instagram</strong><small lang="en">@plajshawarma</small></span>
+          <span class="order-arrow">↗</span>
+        </a>
+        <a class="order-option" href="https://app.jaicome.sa/install" target="_blank" rel="noreferrer">
+          <span class="order-icon">↓</span>
+          <span><strong data-i18n="orders.download">Download Jaicome</strong><small lang="en" data-i18n="orders.downloadDetail">Order on Jaicome</small></span>
+          <span class="order-arrow">↗</span>
+        </a>
+      </section>
+
+      <section class="menu-section section" id="menu">
+        <div class="section-topline"><span data-i18n="menu.number">01 / MENU</span><span lang="en">MADE FRESH, EVERY ORDER</span></div>
+        <div class="menu-heading">
+          <div>
+            <p class="eyebrow" data-i18n="menu.eyebrow">PICK YOUR FAVORITE</p>
+            <h2 data-i18n="menu.title">The Plaj Menu</h2>
+          </div>
+          <a class="text-link" href="https://app.jaicome.sa/ar/s/4e7241e0-dc8d-4c79-9608-7cdf5c61d0a6/menu?location=b0a94465-83d1-4144-92b5-40679d8a953a" target="_blank" rel="noreferrer" data-i18n="menu.full">Full menu &amp; ordering on Jaicome ↗</a>
+        </div>
+        <div class="category-list" role="group" aria-label="Menu categories" data-i18n-aria="menu.categories">
+          <button class="category-tab active" type="button" aria-pressed="true" data-category="sandwiches" data-i18n="category.sandwiches">Sandwiches</button>
+          <button class="category-tab" type="button" aria-pressed="false" data-category="meals" data-i18n="category.meals">Meals</button>
+          <button class="category-tab" type="button" aria-pressed="false" data-category="fries" data-i18n="category.fries">Fries</button>
+          <button class="category-tab" type="button" aria-pressed="false" data-category="drinks" data-i18n="category.drinks">Drinks</button>
+          <button class="category-tab" type="button" aria-pressed="false" data-category="sauces" data-i18n="category.sauces">Sauces</button>
+        </div>
+        <div class="dish-grid" id="dish-grid" aria-live="polite"></div>
+        <p class="menu-note" data-i18n="menu.note">Prices are in Saudi riyals. Prices and availability may change; confirm when ordering.</p>
+      </section>
+
+      <section class="signature-section">
+        <div class="signature-copy">
+          <p class="eyebrow" data-i18n="signature.eyebrow">A CUSTOMER FAVORITE</p>
+          <h2 data-i18n="signature.title">Plaj Signature</h2>
+          <p data-i18n="signature.description">Chargrilled chicken shawarma in fresh saj bread, with sliced cheese, mozzarella, cheddar sauce, Plaj spicy sauce, garlic, and pickles. Toasted golden and packed with flavor.</p>
+          <div class="signature-price"><strong>23</strong><span data-i18n="currency">SAR</span></div>
+          <a class="button button-primary" href="https://app.jaicome.sa/ar/s/4e7241e0-dc8d-4c79-9608-7cdf5c61d0a6/item/95e68f8e-59d0-4e1c-b5fe-4d53c23c7e62" target="_blank" rel="noreferrer" data-i18n="signature.order">Order Plaj Signature ↗</a>
+        </div>
+        <div class="signature-image">
+          <img src="assets/mazaaj.webp" alt="Plaj signature shawarma sandwich" data-i18n-alt="signature.imageAlt">
+          <span class="image-stamp">PLAJ<br>FAVORITE</span>
+        </div>
+      </section>
+
+      <section class="story-section section" id="story">
+        <div class="story-image"><img src="assets/plaj-banner.webp" alt="Plaj Shavurma - Real shawarma, made the Plaj way" data-i18n-alt="story.imageAlt"></div>
+        <div class="story-copy">
+          <div class="section-topline"><span data-i18n="story.number">02 / OUR STORY</span><span lang="en">A LITTLE ABOUT US</span></div>
+          <p class="eyebrow" data-i18n="story.eyebrow">MADE WITH LOVE IN QATIF</p>
+          <h2 data-i18n="story.title">Shawarma has a tradition.<br>This is the original.</h2>
+          <p data-i18n="story.description">At Plaj, our shawarma is grilled and toasted to arrive hot and full of flavor. Choose your sandwich, add your favorite sauce, and leave the rest to us.</p>
+          <a class="text-link" href="https://www.instagram.com/plajshawarma/" target="_blank" rel="noreferrer" data-i18n="story.instagram">See what's new at @plajshawarma ↗</a>
+        </div>
+      </section>
+
+      <section class="gallery-section section">
+        <div class="gallery-heading">
+          <div><p class="eyebrow" data-i18n="gallery.eyebrow">MADE TO MAKE YOU HUNGRY</p><h2 data-i18n="gallery.title">A Taste of Plaj</h2></div>
+          <a class="text-link" href="https://www.instagram.com/plajshawarma/" target="_blank" rel="noreferrer" data-i18n="gallery.more">More on Instagram ↗</a>
+        </div>
+        <div class="gallery-grid">
+          <a href="https://www.instagram.com/plajshawarma/" target="_blank" rel="noreferrer"><img src="assets/arabic-shawarma.webp" alt="Arabic shawarma from Plaj" data-i18n-alt="gallery.arabic"></a>
+          <a href="https://www.instagram.com/plajshawarma/" target="_blank" rel="noreferrer"><img src="assets/fries-shawarma.webp" alt="Plaj shawarma fries" data-i18n-alt="gallery.fries"></a>
+          <a href="https://www.instagram.com/plajshawarma/" target="_blank" rel="noreferrer"><img src="assets/fatayer.webp" alt="Plaj pie" data-i18n-alt="gallery.pie"></a>
+          <a href="https://www.instagram.com/plajshawarma/" target="_blank" rel="noreferrer"><img src="assets/shawarma-saj.webp" alt="Saj bread shawarma" data-i18n-alt="gallery.saj"></a>
+        </div>
+      </section>
+
+      <section class="location-section section" id="location">
+        <div class="location-copy">
+          <div class="section-topline"><span data-i18n="location.number">03 / VISIT US</span><span lang="en">COME SAY HI</span></div>
+          <p class="eyebrow" data-i18n="location.eyebrow">SEE YOU IN QATIF</p>
+          <h2 data-i18n="location.title">Plaj is closer than you think.</h2>
+          <p data-i18n="location.address">Hamzah ibn Abdul Muttalib Street, Al Shati, Al Qatif</p>
+          <div class="location-meta">
+            <div><span class="meta-icon">◷</span><span><strong data-i18n="location.hours">Hours</strong><small data-i18n="location.hoursValue">Daily · Until 11:59 PM</small></span></div>
+            <a href="tel:+966566523212"><span class="meta-icon">☎</span><span><strong data-i18n="location.phone">Call us</strong><small dir="ltr">056 652 3212</small></span></a>
+            <a href="https://www.instagram.com/plajshawarma/" target="_blank" rel="noreferrer"><span class="meta-icon">◎</span><span><strong data-i18n="location.instagram">Instagram</strong><small dir="ltr">@plajshawarma</small></span></a>
+          </div>
+          <div class="location-actions">
+            <a class="button button-primary" href="https://maps.app.goo.gl/9NgyiUBWyRLCZyBu9" target="_blank" rel="noreferrer" data-i18n="location.directions">Open in Maps ↗</a>
+            <a class="button button-outline" href="https://wa.me/966566523212" target="_blank" rel="noreferrer" data-i18n="location.whatsapp">WhatsApp ↗</a>
+          </div>
+        </div>
+        <a class="map-card" href="https://maps.app.goo.gl/9NgyiUBWyRLCZyBu9" target="_blank" rel="noreferrer" aria-label="Open Plaj Shavurma in Google Maps" data-i18n-aria="location.mapLabel">
+          <img src="assets/plaj-banner.webp" alt="">
+          <span class="map-label"><span>⌖</span> <span data-i18n="location.map">Al Shati, Al Qatif</span> <small data-i18n="location.mapAction">Open in Google Maps ↗</small></span>
+        </a>
+      </section>
+
+      <section class="final-cta">
+        <img src="assets/plaj-banner.webp" alt="">
+        <div class="final-cta-copy">
+          <p class="eyebrow" data-i18n="final.eyebrow">GOOD FOOD CAN'T WAIT</p>
+          <h2 data-i18n="final.title">Pick your order.<br>We'll make it fresh.</h2>
+          <a class="button button-primary" href="https://app.jaicome.sa/ar/b0a94465-83d1-4144-92b5-40679d8a953a" target="_blank" rel="noreferrer" data-i18n="final.order">Order now on Jaicome ↗</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand" href="#home"><img src="assets/Plaj Şavurma Kebab Logo.webp" alt="" data-i18n-alt="brand.logoAlt"><span data-i18n="brand">Plaj Shavurma<small lang="en">PLAJ SHAVURMA</small></span></a>
+      <p data-i18n="footer.tagline">Real shawarma. Made the Plaj way.<span lang="en">Real shawarma. Made the Plaj way.</span></p>
+      <a href="https://www.instagram.com/plajshawarma/" target="_blank" rel="noreferrer">@plajshawarma ↗</a>
+      <small>© <span id="year"></span> <span data-i18n="footer.copyright">Plaj Shavurma · All rights reserved</span></small>
+    </footer>
+
+    <a class="mobile-order" href="https://app.jaicome.sa/ar/b0a94465-83d1-4144-92b5-40679d8a953a" target="_blank" rel="noreferrer"><span data-i18n="nav.order">Order Now</span> <span>↗</span></a>
+  </body>
+</html>
